@@ -1,0 +1,32 @@
+LiB3O5			! Crystal Name, must have a name.
+
+8.444	    7.378	5.146	    ! Lattice constants a, b, c (Angstroms), at 20C
+90          90          90          ! alpha, beta, gamma (degrees)
+
+36	                            ! Total number of atoms in a unit cell.
+
+! Atom	X	Y	Z	Occupancy (if missing, default to 1)
+Si	0	0	0	1 
+Si	0.5	0.5	0	1
+Si	0.5	0	0.5	1
+Si	0	0.5	0.5	1
+Si	0.25	0.25	0.25	1
+Si	0.75	0.75	0.25	1
+Si	0.75	0.25	0.75	1
+Si	0.25	0.75	0.75	1
+
+530.82	! Si, Debye-Waller temperature (K) (set 0 or -1 if unknown)
+	! Here only one kind of atoms, Si
+        ! Debye-Waller temperatures are only for HXRD, NOT used by LauePt at all!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The following will be ignored. You can add anything below as references, 
+!    but better start each non-blank line with "!"
+!
+! 2.56	2.56	2.56	! Thermal expansion coefficients (10^-6/K)
+! 0.333333???	! Poisson ratio
+!
+! REFS:
+! 1. Phys. Review 127, 690 (1962): DW = 543+-8 K; Germanium 290+-5K.
+! 2. For Germanium structure factor see Phys. Rev. B 42, 1248 (1990).
+! 3. CuKa1 bandwidth 1.7 eV, Deutsch & Hart Phys. Rev. B 26, 5558(1982).

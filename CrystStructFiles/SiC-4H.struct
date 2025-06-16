@@ -1,0 +1,23 @@
+! Text format structure file
+
+SiC-4H			! Crystal Name
+3.008051	3.008051	10.08448	! Lattice constants a, b, c (Å)
+90	90	120	! alpha, beta, gamma (degree)
+
+8	! Total number of atoms in the unit cell
+
+! Atom	X		Y		Z	Occupancy
+C	0		0		0.1875	1
+C	0		0		0.6875	1
+C	0.333333333333	0.666666666667	0.4375	1
+C	0.666666666667	0.333333333333	0.9375	1
+Si	0		0		0	1
+Si	0		0		0.5	1
+Si	0.333333333333	0.666666666667	0.25	1
+Si	0.666666666667	0.333333333333	0.75	1
+
+1297	! Debye characteristic temperature (K)
+1297	! Debye
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+!PRB 57 (1998) 2647

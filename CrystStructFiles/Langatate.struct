@@ -1,0 +1,24 @@
+! Text format structure file
+
+Langatate			! Crystal Name
+8.2282	8.2282	5.1242	! Lattice constants a, b, c (Å)
+90	90	120	! alpha, beta, gamma (degree)
+
+8	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupancy
+La	0.42492	0	0	1
+Ga	0	0	0	0.54
+Ta	0	0	0	0.46
+Ga	0.33333	0.66667	0.46892	1
+Ga	0.76171	0	0.5	1
+O	0.33333	0.66667	0.8222	1
+O	0.45687	0.30898	0.6941	1
+O	0.21948	0.07878	0.2411	1
+
+0	! Debye characteristic temperature (K)
+0
+0
+0
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -1,0 +1,24 @@
+! Text format structure file
+
+AlAs			! Crystal Name
+5.6605	5.6605	5.6605	! Lattice constants a, b, c (Å)
+90	90	90	! alpha, beta, gamma (degree)
+
+8	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupancy
+Al	0.125	-0.125	-0.125	1
+Al	0.125	0.375	0.375	1
+Al	0.625	-0.125	0.375	1
+Al	0.625	0.375	-0.125	1
+As	0.375	0.125	-0.375	1
+As	0.375	0.625	0.125	1
+As	0.875	0.125	0.125	1
+As	0.875	0.625	-0.375	1
+
+370	! Debye characteristic temperature (K)
+370	!???
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!5.2	! Thermal expansion coefficient (10^-6/K)
+!JAP 58, R1 (1985)
