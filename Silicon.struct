@@ -1,0 +1,51 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!          Format of Crystal Structure File Version 3.1 for LauePt and HXRD           !
+!                                                                                     !
+! (1) Only ANSI TEXT files, no UNICODE; each line must have less than 200 characters. !
+!     So use Notepad to edit the *.struct files.                                      !
+! (2) From "!" to the end of the line is comments, will be ignored by the programs.   !
+! (3) Adjacent data should be separated by white space (" "), comma (","), or tabs.   !
+! (4) Blank lines and extra white space or tabs will be ignored.                      !
+!                                                                                     !
+! (5) Note that if the unit cell has more than one kind of atoms, you must assign ONE !
+!     Debye-Waller temperature (DWT) to EACH KIND of atoms, STRICTLY in the sequence  !
+!     from low-Z to high-Z atoms (see "GaAs.struct"). One line can only have one DWT! !
+!     If you only know the "average" DWT of a compound (as in previous versions or in !
+!     the literature), you must assign the average DWT to each kind of atoms (see     !
+!     again "GaAs.struct"). If it is missing, the program may cause errors or treat   !
+!     DWT = 0 for that kind (and the remaining kinds) of atoms!                       !
+!                                                                                     !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Silicon			! Crystal Name, must have a name.
+
+5.43102064  5.43102064  5.43102064  ! Lattice constants a, b, c (Angstroms)
+90          90          90          ! alpha, beta, gamma (degrees)
+
+8	                            ! Total number of atoms in a unit cell.
+
+! Atom	X	Y	Z	Occupancy (if missing, default to 1)
+Si	0	0	0	1 
+Si	0.5	0.5	0	1
+Si	0.5	0	0.5	1
+Si	0	0.5	0.5	1
+Si	0.25	0.25	0.25	1
+Si	0.75	0.75	0.25	1
+Si	0.75	0.25	0.75	1
+Si	0.25	0.75	0.75	1
+
+530.82	! Si, Debye-Waller temperature (K) (set 0 or -1 if unknown)
+	! Here only one kind of atoms, Si
+        ! Debye-Waller temperatures are only for HXRD, NOT used by LauePt at all!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The following will be ignored. You can add anything below as references, 
+!    but better start each non-blank line with "!"
+!
+! 2.56	2.56	2.56	! Thermal expansion coefficients (10^-6/K)
+! 0.333333???	! Poisson ratio
+!
+! REFS:
+! 1. Phys. Review 127, 690 (1962): DW = 543+-8 K; Germanium 290+-5K.
+! 2. For Germanium structure factor see Phys. Rev. B 42, 1248 (1990).
+! 3. CuKa1 bandwidth 1.7 eV, Deutsch & Hart Phys. Rev. B 26, 5558(1982).
