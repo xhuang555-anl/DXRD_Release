@@ -36,7 +36,7 @@ Si	0.25	0.75	0.75	1
 
 530.82	! Si, Debye-Waller temperature (K) (set 0 or -1 if unknown)
 	! Here only one kind of atoms, Si
-        ! Debye-Waller temperatures are only for HXRD, NOT used by LauePt at all!
+        ! Debye-Waller temperatures are only for DXRD, NOT used by LauePt at all!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! The following will be ignored. You can add anything below as references, 
