@@ -22,7 +22,7 @@ Silicon			! Crystal Name, must have a name.
 5.43102064  5.43102064  5.43102064  ! Lattice constants a, b, c (Angstroms)
 90          90          90          ! alpha, beta, gamma (degrees)
 
-8	                            ! Total number of atoms in a unit cell !!!!!!!!!!!!
+8	                            ! Total number of atoms in a unit cell.
 
 ! Atom	X	Y	Z	Occupancy (if missing, default to 1)
 Si	0	0	0	1 
@@ -36,7 +36,7 @@ Si	0.25	0.75	0.75	1
 
 530.82	! Si, Debye-Waller temperature (K) (set 0 or -1 if unknown)
 	! Here only one kind of atoms, Si
-        ! Debye-Waller temperatures are only for HXRD, NOT used by LauePt at all!
+        ! Debye-Waller temperatures are only for DXRD, NOT used by LauePt at all!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! The following will be ignored. You can add anything below as references, 
