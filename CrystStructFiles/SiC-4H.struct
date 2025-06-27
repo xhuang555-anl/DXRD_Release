@@ -1,7 +1,7 @@
 ! Text format structure file
 
 SiC-4H			! Crystal Name
-3.008051	3.008051	10.08448	! Lattice constants a, b, c (Å)
+3.08051 3.08051 10.08448	! Lattice constants a, b, c (Å)
 90	90	120	! alpha, beta, gamma (degree)
 
 8	! Total number of atoms in the unit cell
