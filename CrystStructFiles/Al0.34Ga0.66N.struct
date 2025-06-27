@@ -6,13 +6,13 @@ GaN			! Crystal Name
 
 6	! Total number of atoms in the unit cell
 
-! Atom	X	Y	Z	Occupancy
-N	0	0	0.375	1
-N	0.333333	0.666667	0.875	1
-Al	0	0	0	0.34
-Al	0.3333333	0.66666667	0.5	0.34
-Ga	0	0	0	0.66
-Ga	0.333333	0.666667	0.5	0.66
+! Atom	X		Y		Z	Occupancy
+N	0		0		0.375	1
+N	0.333333333333	0.666666666667	0.875	1
+Al	0		0		0	0.34
+Al	0.333333333333	0.6666666666667	0.5	0.34
+Ga	0		0		0	0.66
+Ga	0.333333333333	0.666666666667	0.5	0.66
 
 0	! Debye characteristic temperature (K)
 0
