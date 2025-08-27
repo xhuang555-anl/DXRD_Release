@@ -1,0 +1,16 @@
+! Text format structure file
+
+PbI2			! Crystal Name
+4.55500  4.55500  6.97700	! Lattice constants a, b, c (Å)
+90	90	120	! alpha, beta, gamma (degree)
+
+3	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupation
+Pb          0.00000  0.00000  0.00000	1
+I           0.66667  0.33333  0.26500	1
+I           0.33333  0.66667  0.73500	1
+
+0	! Debye characteristic temperature (K)
+0	! Thermal expansion coefficient (10^-6/K)
+

@@ -1,0 +1,21 @@
+! Text format structure file
+
+NaNO2			! Crystal Name
+3.55000 5.56000 5.38000	! Lattice constants a, b, c (Å)
+90	90	90	! alpha, beta, gamma (degree)
+
+8	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupancy
+N           0.50000  0.58300  0.50000	1
+N           0.00000  0.08300  0.00000	1
+Na          0.50000  0.08300  0.50000	1
+Na          0.00000  0.58300  0.00000	1
+O           0.50000  0.50000  0.69400	1
+O           0.00000  0.00000  0.19400	1
+O           0.50000  0.50000  0.30600	1
+O           0.00000  0.00000  0.80600	1
+
+0	! Debye characteristic temperature (K)
+0	! Thermal expansion coefficient (10^-6/K)
+

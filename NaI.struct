@@ -1,0 +1,21 @@
+! Text format structure file
+
+NaI			! Crystal Name
+6.4728	6.4728	6.4728	! Lattice constants a, b, c (Å)
+90	90	90	! alpha, beta, gamma (degree)
+
+8	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupancy
+Na	0	0	0	1
+Na	0.5	0.5	0	1
+Na	0.5	0	0.5	1
+Na	0	0.5	0.5	1
+I	0.5	0.5	0.5	1
+I	0	0	0.5	1
+I	0	0.5	0.5	1
+I	0.5	0	0	1
+
+0	! Debye characteristic temperature (K)
+0	! Thermal expansion coefficient (10^-6/K)
+

@@ -1,0 +1,19 @@
+! Crystal Structure File
+! Version 2.1
+
+MgF2			! Crystal Name
+4.623	4.623	3.052	! Lattice constants a, b, c (A)
+90	90	90	! alpha, beta, gamma (degrees)
+
+6	! Total number of atoms in unit cell
+
+! Atom	X	Y	Z	Occupancy
+Mg	0	0	0	1
+F	0.303	0.303	0	1
+Mg	0.5	0.5	0.5	1
+F	0.697	0.697	0	1
+F	0.197	0.803	0.5	1
+F	0.803	0.197	0.5	1
+
+0	! Debye characteristic temperature (K)
+0	0	0	! Thermal expansion coefficients (10^-6/K)
