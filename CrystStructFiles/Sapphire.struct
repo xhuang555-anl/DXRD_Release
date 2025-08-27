@@ -1,0 +1,23 @@
+! Text format structure file
+
+Sapphire			! Crystal Name
+5.13	5.13	5.13	! Lattice constants a, b, c (Å)
+55.1	55.1	55.1	! alpha, beta, gamma (degree)
+
+10	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupancy
+O	-0.556	-0.25	0.056	1
+O	-0.056	0.556	0.25	1
+O	0.056	-0.556	-0.25	1
+O	0.556	0.25	-0.0564	1
+O	0.25	-0.056	0.5564	1
+O	-0.25	0.056	-0.556	1
+Al	-0.148	-0.148	-0.148	1
+Al	0.352	0.352	0.352	1
+Al	0.148	0.148	0.148	1
+Al	-0.352	-0.352	-0.352	1
+
+0	! Debye characteristic temperature (K)
+0	! Thermal expansion coefficient (10^-6/K)
+
