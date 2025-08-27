@@ -1,0 +1,21 @@
+! Text format structure file
+
+YSO			! Crystal Name
+10.52	12.64	6.82	! Lattice constants a, b, c (?
+90	90	102.5	! alpha, beta, gamma (degree)
+
+8	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupancy
+Y	0.287	0.031	0.991	1
+Y	0.107	0.335	0.63	1
+O	0.124	0.334	0.037	1
+O	0.157	0.156	0.242	1
+O	0.954	0.325	0.122	1
+O	0.062	0.404	0.344	1
+O	0.269	0.106	0.665	1
+Si	0.066	0.304	0.164	1
+
+0	! Debye characteristic temperature (K)
+0	! Thermal expansion coefficient (10^-6/K)
+
