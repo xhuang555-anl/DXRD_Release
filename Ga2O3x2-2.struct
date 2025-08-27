@@ -1,0 +1,27 @@
+! Text format structure file
+
+Ga2O3			! Crystal Name
+12.214 	3.0371	5.7981	! Lattice constants a, b, c (E)
+90	103.83	90	! alpha, beta, gamma (degree)
+
+10	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupancy
+Ga      0.09050 0       -0.2052 1
+Ga      -.09050 0       0.2052 1
+Ga      0.3414 0     -0.3143 1
+Ga     -0.3414 0     0.3143 1
+O       0.1674  0       0.1011  1
+O       -0.1674  0       -0.1011  1
+O       0.4957  0       0.2553  1
+O       -0.4957  0       -0.2553  1
+O       0.8279  0       0.4365  1
+O       -0.8279  0       -0.4365  1
+
+
+0	! Debye characteristic temperature (K)
+0	! Thermal expansion coefficient (10^-6/K)
+
+[BEGIN REF]
+Goldberg Yu. in Properties of Advanced SemiconductorMaterials GaN, AlN, InN, BN, SiC, SiGe . Eds. Levinshtein M.E., Rumyantsev S.L., Shur M.S., John Wiley & Sons, Inc., New York, 2001, 31-47
+[END REF]

@@ -1,0 +1,17 @@
+! Text format structure file
+
+Cu			! Crystal Name
+3.61490  3.61490  3.61490	! Lattice constants a, b, c (Å)
+90	90	90	! alpha, beta, gamma (degree)
+
+4	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupation
+Cu          0.50000  0.50000  0.00000	1
+Cu          0.50000  0.00000  0.50000	1
+Cu          0.00000  0.50000  0.50000	1
+Cu          0.00000  0.00000  0.00000	1
+
+0	! Debye characteristic temperature (K)
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!

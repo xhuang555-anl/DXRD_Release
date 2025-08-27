@@ -1,0 +1,22 @@
+! Text format structure file
+
+InP			! Crystal Name
+5.8687	5.8687	5.8687	! Lattice constants a, b, c (Å)
+90	90	90	! alpha, beta, gamma (degree)
+
+8	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupancy
+In	0	0	0	1
+In	0.5	0.5	0	1
+In	0.5	0	0.5	1
+In	0	0.5	0.5	1
+P	0.25	0.75	0.75	1
+P	0.75	0.25	0.75	1
+P	0.75	0.75	0.25	1
+P	0.25	0.25	0.25	1
+
+425	! Debye characteristic temperature (K)
+425
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

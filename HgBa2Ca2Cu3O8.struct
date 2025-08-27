@@ -1,0 +1,31 @@
+! Text format structure file
+! Finger et al., Physica C 226 (1994) 216
+HgBa2Ca2Cu3O8			! Crystal Name
+3.85400 3.85400 15.79700	! Lattice constants a, b, c (Å)
+90.000 90.000 90.000	! alpha, beta, gamma (degree)
+
+18	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupation
+Hg     0.00000 0.00000 0.00000	1
+Ba     0.50000 0.50000 0.17483	1
+Ba     0.50000 0.50000 0.82517	1
+Ca     0.50000 0.50000 0.39759	1
+Ca     0.50000 0.50000 0.60241	1
+Cu     0.00000 0.00000 0.50100	1
+Cu     0.00000 0.00000 0.49900	1
+Cu     0.00000 0.00000 0.30081	1
+Cu     0.00000 0.00000 0.69919	1
+O      0.50000 0.50000 0.00000	1
+O      0.00000 0.50000 0.50000	1
+O      0.50000 0.00000 0.50000	1
+O      0.50000 0.00000 0.30597	1
+O      0.00000 0.50000 0.30597	1
+O      0.00000 0.50000 0.69403	1
+O      0.50000 0.00000 0.69403	1
+O      0.00000 0.00000 0.12280	1
+O      0.00000 0.00000 0.87720	1
+
+0	! Debye characteristic temperature (K)
+0	! Thermal expansion coefficient (10^-6/K)
+
