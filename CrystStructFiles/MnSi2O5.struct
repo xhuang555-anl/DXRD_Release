@@ -1,0 +1,18 @@
+! Text format structure file
+
+Mn2SiO5			! Crystal Name
+6.3320	8.1610	6.5830	! Lattice constants a, b, c (?
+90	114.459	90	! alpha, beta, gamma (degree)
+
+2	! Total number of atoms in the unit cell
+
+! Atom	X	Y	Z	Occupancy
+Mn	0.000 	0.3205	0.2500	1
+Si	0.000	0.0000	0.0000	1 
+Si	0.000	0.3234	0.7500	1 
+O	0.000	0.0649	0.2500	1 
+O	0.8021	0.5518	0.0913	1 
+O	0.0919	0.2076	0.6018	1 
+
+0	! Debye characteristic temperature (K)
+0	! Thermal expansion coefficient (10^-6/K)
