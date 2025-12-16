@@ -1,8 +1,8 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !          Format of Crystal Structure File Version 3.1 for LauePt and HXRD           !
 !                                                                                     !
-! (1) Only ANSI TEXT files, or UTF-8 files only with ASCII characters; each line must |
-!     have less than 200 characters. So use Notepad to edit the *.struct files.                                      !
+! (1) Only ANSI TEXT files or UTF-8 files with only ASCII characters; each line must  !
+!     have less than 200 characters. So use Notepad to edit the *.struct files.       !
 ! (2) From "!" to the end of the line is comments, will be ignored by the programs.   !
 ! (3) Adjacent data should be separated by white space (" "), comma (","), or tabs.   !
 ! (4) Blank lines and extra white space or tabs will be ignored.                      !
